@@ -1,0 +1,11 @@
+img
+{
+    border-radius: 15px;
+}
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL7tE9G2p7Ow9pJsJTwxF98NbjcDwHpl10ug&s"); 
+    background-size: cover;        
+    background-position: center;  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+  }

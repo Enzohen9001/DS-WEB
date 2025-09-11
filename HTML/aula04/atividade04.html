@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> exercicio 4 
+        </title>
+    </head>
+    <body>
+        <h1>EXERCICIO 2</h1>
+        <form action="processa.php" method="get" align="center">
+            <input type="radio" id="Masculino" name="escolha" value="1"required>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Feminino" name="escolha" value="2"required>
+            <label for="Feminino">Feminino</label>
+            <input type="radio" id="Outro" name="escolha" value="3"required checked>
+            <label for="Outro">Outro</label>
+            
+            <hr>
+            
+            <input type="checkbox" id="noticias" name="interesses" value="noticias"checked>
+            <label for="noticias">Tecnologia</label>
+            <br>
+            <input type="checkbox" id="promocoes" name="interesses" value="promocoes">
+            <label for="promocoes">Esportes</label>
+            <br>
+            <input type="checkbox" id="Arte" name="interesses" value="Arte">
+            <label for="Arte">Arte</label>
+            <br>
+            <input type="checkbox" id="Música" name="interesses" value="Música">
+            <label for="Música">Música</label>
+
+            <hr>
+
+            <label for="carros">Escolha os seus carros favoritos (para escolher mais de um segure ctrl):</label>
+            <select id="carros" name="carros" multiple >
+        
+            <option value="corolla">Toyota Corolla</option>
+            <option value="civic">Honda Civic</option>
+            <option value="crv">Honda CR-V</option>
+            <option value="rav4">Honda HR-V</option>
+            <option value="rav4">VW T-Cross</option>
+            <option value="rav4">VW Polo</option>
+            <option value="rav4">Fiat Strada</option>
+            </optgroup>
+            </select>
+        <button type="submit">Enviar</button>
+    </body>
+</form>
+</html>

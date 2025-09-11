@@ -1,0 +1,26 @@
+
+            /* comentario em CSS */
+            /*seletores de CSS*/
+            *
+            {
+                color: rgb(255, 255, 255);
+            }
+            p{
+                color: white
+            }
+            
+            
+            body {
+                background-image: url("stranger2.jpg"); 
+                background-size: cover;        
+                background-position: center;  
+                background-repeat: no-repeat;  
+                background-attachment: fixed;  
+              }
+            
+           
+            
+            
+
+            
+          

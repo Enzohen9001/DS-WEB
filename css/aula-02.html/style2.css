@@ -1,0 +1,27 @@
+u{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* ou 700 para negrito */
+    font-style: normal;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(109, 38, 99);
+  
+}
+img{
+    border: 5px double black;
+    border-radius: 10% ;
+    filter: brightness(290%);
+}
+
+table,th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+    
