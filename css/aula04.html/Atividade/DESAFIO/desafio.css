@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    max-width: 400px;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-width: 4px;
+    color: black; /* CORREÇÃO: Define a cor do texto como preto por padrão */
+}
+
+/* Apenas cores de fundo e borda são definidas individualmente */
+.box01 { background-color: blue;
+border-color: blue; border-style: solid; }
+.box02 { background-color: green;
+ border-color: green; border-style: dotted; }
+.box03 { background-color: blue;
+ border-color: blue; border-style: solid; }
+.box04 { background-color: red;
+ border-color: red; border-style: dotted; }
+.box05 { background-color: blue;
+ border-color: blue; border-style: solid; }
+.box06 { background-color: green;
+ border-color: green; border-style: solid; }
+.box07 { background-color: red;
+border-color: red; border-style: solid; }
+.box08 { background-color: blue;
+ border-color: blue; border-style: dotted; }
+.box09 { background-color: green; border-color: green; border-style: solid; }
+
+.box:hover {
+    color: white; /* O efeito de hover ainda muda a cor para branco */
+}

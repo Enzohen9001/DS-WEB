@@ -1,0 +1,16 @@
+.box1{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid black;
+}
+.box2{
+    background-color: crimson;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 15px;
+    border: 2px solid black;
+}

@@ -1,0 +1,41 @@
+.box1{
+height: 40px;
+width: 120px;
+    display: inline-block;
+    background-color: rgb(21, 0, 255);
+    margin: 5px;
+    border: 2px solid black;
+}
+.box2{
+    height: 40px;
+    width: 120px;
+    display: inline-block;
+    background-color: rgb(46, 112, 255);
+    margin: 5px;
+    border: 2px solid black;
+    
+}
+.box3{
+    height: 40px;
+    width: 120px;
+    display: inline-block;
+    background-color: rgb(169, 178, 255);
+    margin: 5px;
+    border: 2px solid black;
+}
+.box4{
+    height: 40px;
+    width: 120px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border: 2px solid black;
+}
+.geral{
+    height: 100%px;
+    width: 100%px;
+    display: inline-block;
+    background-color: rgb(195, 2, 2);
+    margin: 5px;
+    border: 2px solid black;
+}
