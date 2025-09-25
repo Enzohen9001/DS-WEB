@@ -1,0 +1,23 @@
+.Menu{
+    position: fixed; top: 0; left: 0; width: 100%; height: 60px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.Menul {
+    display: inline-block;
+    width: 200px;
+    height: 890px;
+    background-color: rgb(120, 120, 120);
+    position: fixed; 
+    top: 60px;
+    left: 0;
+    text-align: center;
+}
+.texto{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 0px 0px 0px 210px;
+}

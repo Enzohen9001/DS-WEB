@@ -1,0 +1,10 @@
+.Box{
+height: 200px;
+width: 200px;
+background-color: red;
+position: relative;
+top: 20px;
+left: 30px;
+border: black 3px  solid;
+text-align: center;
+}

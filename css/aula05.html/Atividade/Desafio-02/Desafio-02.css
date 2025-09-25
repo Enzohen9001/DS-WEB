@@ -1,0 +1,49 @@
+
+.En{
+    background-color: blue;
+    height: 20px;
+    width: 20px;
+    border: solid black 2px;
+    position: sticky;
+    padding: 15px;
+    margin: 80px;
+    display: inline-block;
+    top: 0;
+
+}
+.Nz{
+    background-color: rgb(78, 78, 255);
+    height: 20px;
+    width: 20px;
+    border: solid black 2px;
+    position: sticky;
+    padding: 15px;
+    margin: 160px;
+    display: inline-block;
+    top: 0;
+
+}
+.Zo{
+    background-color: rgb(126, 126, 255);
+    height: 20px;
+    width: 20px;
+    border: solid black 2px;
+    position: sticky;
+    padding: 15px;
+    margin: 240px;
+    display: inline-block;
+    top: 0;
+
+}
+.Oe{
+    background-color: hsl(240, 100%, 84%);
+    height: 20px;
+    width: 20px;
+    border: solid black 2px;
+    position: sticky;
+    padding: 15px;
+    margin: 320px;
+    display: inline-block;
+    top: 0;
+
+}

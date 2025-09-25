@@ -1,0 +1,14 @@
+.box{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(8, 193, 255);
+    border: 2px black solid;
+    position: relative;
+}
+.box1{
+width: 100px;
+height: 100px;
+background-color: green;
+position: absolute; bottom: 0; right: 0;
+
+}
