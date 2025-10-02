@@ -1,0 +1,58 @@
+.menu{
+    height: 60px;
+    background-color: rgb(178, 146, 42);
+    text-align: center;
+    position: sticky; top: 0;
+    border: solid black 2px;
+    color: white;
+    padding-bottom: 40px;
+}
+.imgrestaurante{
+    width: 600px;
+}
+.car{
+    display: inline-block;
+    background-color: rgb(200, 200, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+.pro{
+    display: inline-block;
+    background-color: rgb(200, 200, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+.inicio{
+    display: inline-block;
+    background-color: rgb(200, 200, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+.reservas{
+    display: inline-block;
+    background-color: rgb(200, 200, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+body{
+    background-color: #ffe9ac;
+    text-align: center;
+}
+.botao{
+    color: blueviolet;
+    padding: 50px;
+}
+label{
+    color: rgb(0, 137, 137);
+    font-family:fantasy;
+}
+input{
+    border: solid blue 2px;
+    margin: 6px;
+    padding: 6px;
+    
+}
+.enviar{
+    color: yellow;
+    front-height bold
+}

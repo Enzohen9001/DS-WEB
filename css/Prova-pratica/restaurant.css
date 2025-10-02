@@ -1,0 +1,50 @@
+.menu{
+    height: 60px;
+    background-color: rgb(178, 146, 42);
+    text-align: center;
+    position: sticky; top: 0;
+    border: solid black 2px;
+    color: white;
+    padding-bottom: 40px;
+}
+.imgrestaurante{
+    width: 100%;
+}
+.car{
+    display: inline-block;
+    background-color: rgb(200, 200, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+.pro{
+    display: inline-block;
+    background-color: rgb(200, 200, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+.inicio{
+    display: inline-block;
+    background-color: rgb(200, 200, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+.reservas{
+    display: inline-block;
+    background-color: rgb(200, 200, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+body{
+    background-color: #ffe9ac;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner{    
+    background-color: rgba(77, 255, 77, 0.495);
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.texto22{
+    color: green;
+}
