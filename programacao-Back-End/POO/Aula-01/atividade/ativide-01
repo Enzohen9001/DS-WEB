@@ -1,0 +1,55 @@
+<?php
+
+class Ventilador {
+
+    public $material; //Atributo
+    public $helices; //Atributo
+    public $marca; //Atributo
+    public $modelo; //Atributo
+    public $cor; //Atributo
+
+    public function gira () { //Metodo
+
+        return "O ventilador de " . $this->modelo "esta gira.";
+    }
+
+      public function liga () { //Metodo
+
+        return "O ventilador de " . $this->material " liga." ;
+    }
+
+      public function ventila () { //Metodo
+
+        return "O ventilador da cor". $this->cor " ventila muito e é muito bom.";
+    }
+}
+
+?>
+
+<?php
+
+class impressora {
+
+    public $marca; //Atributo
+    public $modelo; //Atributo
+    public $cor; //Atributo
+    public $tamanho; //Atributo
+    public $; //Atributo
+
+    public function marca () { //Metodo
+
+        return "A impressora da marca ". $this->marca " é muito boa.";
+    }
+
+      public function liga () { //Metodo
+
+        return "A impressora ". $this->cor " liga";
+    }
+
+      public function imprime () { //Metodo
+
+        return "A impressora". $this->tamanho "imprime os melhores desenhos";
+    }
+}
+
+?>
