@@ -26,7 +26,7 @@
         para aprender de verdade.
       </p>
 
-      <a href="" class="btn">Entrar na Aula de POO</a>
+      <a href="/POO/" class="btn">Entrar na Aula de POO</a>
     </section>
 
     
