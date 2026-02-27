@@ -1,0 +1,32 @@
+#Hulk{
+    width: 60px;
+    height: 60px;
+    background: green;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#pessoa{
+    width: 50px;
+    height: 50px;
+    background: rgb(220, 160, 63);
+    position: absolute;
+}
+body{
+    background-color: lightblue;
+}
+
+.img1{  
+    width: 60px;
+    height: 30px;
+}
+.img2{  
+    width: 50px;
+    height: 50px;
+}
+
+.img3{  
+    width: 50px;
+    height: 50px;
+}

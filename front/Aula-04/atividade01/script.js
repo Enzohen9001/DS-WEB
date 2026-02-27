@@ -2,10 +2,8 @@
 var contadorItem = 0
 
 function adicionar() {
-
     contadorItem++
 
-    // Pegando os valores dos inputs
     let nome = document.getElementById("nome").value
     let email = document.getElementById("Email").value
     let rm = document.getElementById("RM").value
@@ -20,11 +18,7 @@ function adicionar() {
 
     // Inserindo os dados dentro da div
     novoAluno.innerHTML = 
-    ` Nome: ${nome} <br>
-    Email: ${email} <br>
-    RM: ${rm} <br>
-    Telefone: ${telefone} <br>
-    Turma: ${turma} <br>`
+    ` Nome: ${nome} <br> Email: ${email} <br> RM: ${rm} <br> Telefone: ${telefone} <br> Turma: ${turma} <br>`
 
     //adiciono o item à lista
     document.getElementById("listaAlunos").appendChild(novoAluno);
@@ -34,7 +28,7 @@ function adicionar() {
     botaoRemover.textContent = "Remover" //adiciona texto ao botao
     botaoRemover.setAttribute("onclick",'remover('+contadorItem+')') // Adiciona uma função ao botao
 
-    novoAluno.appendChild(botaoRemover)  //adiciona o botão ao novo aluno
+    novoAluno.appendChild(botaoRemover)  //adiciona o botão de remover
     document.getElementById("listaAlunos").appendChild(novoAluno)
 }
 
