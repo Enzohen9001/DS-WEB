@@ -39,7 +39,7 @@ async function getCategorias() {
     `;
 }
 
-
+// aqui é para adicionar na tabela as coisas do banco
 
 async function postCategoria() {
     var requisicao = await fetch("http://localhost/meus-planos-api/categorias", {
